@@ -1,3 +1,4 @@
+import 'package:alcool_gasolina/pages/home.page.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -17,11 +18,3 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Theme.of(context).primaryColor,
-    );
-  }
-}
